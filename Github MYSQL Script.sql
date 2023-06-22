@@ -103,4 +103,4 @@ ON s.album_id = a.id
 JOIN bands AS b
 ON a.band_id = b.id
 WHERE b.name REGEXP 'Sicario|Alfie and the Hooters'
-ORDER BY SongsBySicarioANdAATH ASC
+ORDER BY SongsBySicarioAndAATH ASC;
